@@ -1,5 +1,5 @@
-# VisionDES
-
+# 🚀 VisionDES
+> Robust and Explainable Dynamic Vision Ensemble
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![PyPI](https://img.shields.io/pypi/v/vision-des.svg)
