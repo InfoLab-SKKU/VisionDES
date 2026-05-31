@@ -84,3 +84,7 @@ prediction = des.predict(
 ## Sample Output
 
 ![VisionDES Output](https://github.com/InfoLab-SKKU/VisionDES/blob/main/images/vision_des_output.PNG?raw=true)
+
+## Example for Attack Scenario
+
+![VisionDES Output](https://github.com/InfoLab-SKKU/VisionDES/blob/main/images/example_for_attack.png?raw=true)
