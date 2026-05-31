@@ -18,3 +18,5 @@ Instead of relying solely on classifier confidence, VisionDES combines:
 - 🧠 Feature-space similarity estimation
 - 📊 Dynamic competence weighting
 - 🔬 Explainable ensemble decisions
+
+For every incoming image, the framework dynamically identifies the most competent classifiers within a local Region of Competence (RoC) and generates an adaptive prediction.
