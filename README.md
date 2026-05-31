@@ -19,3 +19,60 @@ Instead of relying solely on classifier confidence, VisionDES combines:
 - 🔬 Explainable ensemble decisions
 
 For every incoming image, the framework dynamically identifies the most competent classifiers within a local Region of Competence (RoC) and generates an adaptive prediction.
+
+## Installation
+
+```bash
+pip install visiondes
+```
+
+## Quick Start
+
+### Create a Pool of Models
+
+```python
+pool = [
+    resnet50,
+    efficientnet,
+    convnext
+]
+```
+
+### Initialize VisionDES
+
+```python
+from vision_des import VisionDES
+
+des = VisionDES(
+    dsel_dataset=dsel_dataset,
+    pool=pool,
+    device="cuda"
+)
+```
+
+### Build the Retrieval Index
+
+```python
+des.fit()
+```
+
+### Predict
+
+```python
+prediction = des.predict(
+    test_image,
+    k=7
+)
+```
+
+---
+
+## Explainable Inference
+
+```python
+prediction = des.predict(
+    test_image,
+    k=7,
+    explain=True
+)
+```
