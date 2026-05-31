@@ -20,6 +20,10 @@ Instead of relying solely on classifier confidence, VisionDES combines:
 
 For every incoming image, the framework dynamically identifies the most competent classifiers within a local Region of Competence (RoC) and generates an adaptive prediction.
 
+## Framework
+
+![VisionDES Framework](https://github.com/InfoLab-SKKU/VisionDES/blob/main/images/vision_des_framework.png?raw=true)
+
 ## Installation
 
 ```bash
