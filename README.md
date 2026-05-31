@@ -80,3 +80,7 @@ prediction = des.predict(
     explain=True
 )
 ```
+
+## Sample Output
+
+![VisionDES Output](https://github.com/InfoLab-SKKU/VisionDES/blob/main/images/vision_des_output.PNG?raw=true)
