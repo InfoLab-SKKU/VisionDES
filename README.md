@@ -30,6 +30,8 @@ For every incoming image, the framework dynamically identifies the most competen
 pip install vision-des
 ```
 
+https://pypi.org/project/vision-des/ 
+
 ## Quick Start
 
 ### Create a Pool of Models
