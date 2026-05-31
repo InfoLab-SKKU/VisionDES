@@ -5,3 +5,16 @@
 ![PyPI](https://img.shields.io/pypi/v/vision-des.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Research](https://img.shields.io/badge/Research-Dynamic%20Ensemble%20Selection-orange.svg)
+
+## Overview
+
+**VisionDES** is a vision-oriented Dynamic Ensemble Selection (DES) framework that adapts classical DES techniques to modern deep learning pipelines.
+
+Instead of relying solely on classifier confidence, VisionDES combines:
+
+- 🎯 Local classifier competence
+- 🔍 DINO visual embeddings
+- ⚡ FAISS nearest-neighbor retrieval
+- 🧠 Feature-space similarity estimation
+- 📊 Dynamic competence weighting
+- 🔬 Explainable ensemble decisions
