@@ -27,7 +27,7 @@ For every incoming image, the framework dynamically identifies the most competen
 ## Installation
 
 ```bash
-pip install visiondes
+pip install vision-des
 ```
 
 ## Quick Start
