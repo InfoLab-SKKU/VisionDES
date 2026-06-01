@@ -90,3 +90,17 @@ prediction = des.predict(
 ## Example for Attack Scenario
 
 ![VisionDES Output](https://github.com/InfoLab-SKKU/VisionDES/blob/main/images/example_for_attack.png?raw=true)
+
+
+## Citation
+We would appreciate it if you could cite our work when using our code.
+
+```bibtex
+@inproceedings{Juraev_Abuhmed_visiondes_2026,
+  author    = {Juraev, Firuz and Abuhamad, Mohammed and El-Sappagh, Shaker and Woo, Simon and Abuhmed, Tamer},
+  title     = {VisionDES: Robust and Explainable Dynamic Vision Ensemble},
+  booktitle = {Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2 (KDD ’26)},
+  year      = {2026},
+  address   = {Jeju, South Korea}
+}
+```
